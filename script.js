@@ -3,7 +3,7 @@ const addItemBtn = document.querySelector("#addItemBtn");
 const liste = document.querySelector("#liste");
 
 addItemBtn.addEventListener("click", function(e) {
-        elements.push(`Élément X`);
+        elements.push(``);
         console.log(elements);
         let elementsLi = document.createElement("li");
         elementsLi.textContent = `Élément ${elements.length}`;
